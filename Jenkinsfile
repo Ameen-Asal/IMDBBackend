@@ -5,6 +5,8 @@ pipeline{
     stage("build"){
       steps {
         echo 'building the application'
+        sh 'ls -lt'
+        sh 'pwd'
       }
     }
     
